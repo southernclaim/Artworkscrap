@@ -1,0 +1,35 @@
+<head>
+    <title>Artworkscrap - Papelaria Personalizada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+    <link rel="icon" type="image/png" href="images/Prancheta.png">
+    <style>
+        body {
+    background-image: url('images/Fundo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a {
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <div class="topnav">
+  <a href="/">Inicio</a>
+  <a href="/portfolio">Portfolio</a>
+  <a href="#start">Serviços</a>
+  <a href="/contato">Contato</a>
+</div>
+<br>
+<div style="text-align: center;">
+    <img src="images/Prancheta.png" class="logo">
+</div>
+<center>
+<div class="box" style="text-align: center;">
+    <%= yield %>
+</div>
+</center>
+</body>
